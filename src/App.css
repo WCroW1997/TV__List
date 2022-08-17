@@ -57,3 +57,23 @@ a{
     align-items: center;
     gap: 5px;
 }
+
+
+.movieList__zone{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.card{
+    flex-basis: 22%;
+    max-width: 300px;
+    width: 100%;
+}
+
+.movie__poster{
+    max-width: 360px;
+    width: 100%;
+}
